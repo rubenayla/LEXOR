@@ -81,9 +81,9 @@ If we had no limitations, we could create 19 * 7 = 133 consonant-vowel roots. Th
 | `fe`     | friend            | Close companion or ally.          |
 
 ## Pronouns
-If we take a set of 3 people: me, you, and him, we have 3 individual pronouns, 3 pairs of two, and one for all of us. This gives us 7 pronouns. These will be the first 7. Now if you replace him by they, we get a new one. Any of the previous combinations won't be modified by adding more people, since it was already plural. We won't distinguish between "you and him" and "you and them", both are you plural. This gives us 9 pronouns. The "we" that includes everyone will actually be used as a generic we, to not be obliged to defined whether the listener is included or not. The third-person pronouns (he/she/they) will be for people, so we will add 2 more for objects and concepts, singular and plural. This gives us 10 pronouns.
+If we take a set of 3 people: me, you, and him, we have 3 individual pronouns, 3 pairs of two, and one for all of us. This gives us 7 pronouns. These will be the first 7. Now if you replace him by they, we get a new one. Any of the previous combinations won't be modified by adding more people, since it was already plural. We won't distinguish between "you and him" and "you and them", both are you plural. This gives us 9 pronouns. We will add a "we" that is generic, to not be obliged to defined whether the listener is included or not. The third-person pronouns (he/she/they) will be for people, so we will add 2 more for objects and concepts, singular and plural. This gives us 11 pronouns.
 
-About the phonemes, `i` = I/me, `u` = you, `e` = he/she/they, all these combinations will add `l`, and will be specified by the excluded group, so "you and me" = `le`, plural you = `li`, "me and him" = `lu`, generic we = `la`, they = `lo`, it (object) = `w`, they (objects) = `lw`.
+About the phonemes, `i` = I/me, `u` = you, `e` = he/she/they, all these combinations will add `l`, and will be specified by the excluded group, so "you and me" = `le`, plural you = `li`, "me and him" = `lu`, generic we = `la`, super inclusive we = `ly`, they = `lo`, it (object) = `w`, they (objects) = `lw`.
 
 | **Root** | **Meaning**       | **Notes**                                                       |
 |----------|-------------------|-----------------------------------------------------------------|
@@ -91,6 +91,7 @@ About the phonemes, `i` = I/me, `u` = you, `e` = he/she/they, all these combinat
 | `u`      | you               | Second-person singular pronoun, referring only to the listener.|
 | `e`      | he/she/they       | Third-person singular pronoun, referring to people.            |
 | `la`     | we (generic)      | First-person plural pronoun, any unspecified combination including speaker and listener. |
+| `ly`     | we super inclusive| First-person plural pronoun, including the listener and everyone that can be included. |
 | `li`     | you (plural)      | Second-person plural pronoun, referring to multiple listeners. Either "you and him" or "you and them", "you all". |
 | `le`     | you and me        | First-person plural pronoun, referring to the speaker and listener. |
 | `lu`     | me and him        | First-person singular and third-person singular pronoun, referring to the speaker and a third party. |

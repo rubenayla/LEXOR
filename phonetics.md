@@ -7,7 +7,7 @@
 | i           | /i/            | `i`                   | Vowel       | Standard vowel           |
 | o           | /o/            | `o`                   | Vowel       | Standard vowel           |
 | u           | /u/            | `u`                   | Vowel       | Standard vowel           |
-| æ           | /æ/            | `æ`                   | Vowel       | Distinct vowel sound     |
+| æ           | /æ/            | `y`                   | Vowel       | Distinct vowel sound     |
 | /ʌ/         | /ʌ/            | `w`                   | Vowel       | Open-mid back unrounded vowel. |
 | p           | /p/            | `p`                   | Consonant   | Plosive                  |
 | t           | /t/            | `t`                   | Consonant   | Plosive                  |
@@ -37,7 +37,7 @@
 - `/j/` (as in "yes") → Voiced palatal glide.
 
 ### Unused Characters
-- `q`, `c`, `y`, `w`, `j`.
+- `q`, `c`, `j`.
 
 ### Forbidden Phonetics
 
