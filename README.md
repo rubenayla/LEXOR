@@ -10,6 +10,7 @@
 ## Files
 - [language_roots](./language_roots.md): Details on phonetics, roots, and vocabulary.
 - [decisions](./decisions.md): Design choices and rules made during development.
+- [stuff](./stuff.md): Miscellaneous notes and ideas. No organization here.
 
 ## License
 This project is licensed under the **Apache License 2.0**. See the `LICENSE` file for details.
