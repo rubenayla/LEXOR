@@ -8,7 +8,10 @@
 - **Vocabulary**: Root-based vocabulary with a consistent structure to distinguish subjects, and conjugations.
 
 ## Files
-- [language_roots](./language_roots.md): Details on phonetics, roots, and vocabulary.
+- [phonetics](./phonetics.md): Phonemes and their meanings.
+- [roots](./roots.md): Root words and their meanings.
+- [grammar](./grammar.md): Sentence structure and grammar rules.
+- [TODO](./TODO.md): Tasks and goals for the project.
 - [decisions](./decisions.md): Design choices and rules made during development.
 - [stuff](./stuff.md): Miscellaneous notes and ideas. No organization here.
 
