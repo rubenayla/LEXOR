@@ -1,0 +1,12 @@
+
+- Each character matches a phoneme
+    - Almost all languages have complex rules, but end up being almost character-to-phoneme mappings. Just stick with it and make it required. Will make it way easier than competing languages.
+- Large set of vowels and consonants
+- Non-tonal language
+    - No, for clarity of understanding in complex situations with many people and noises. Non-tonal is more objective.
+- Sentence structure: VOS - Verb Object Subject
+    - After the verb goes the thing affected by it, the object. VO is a given.
+    - SVO - Subject Verb Object: languages have the advantage of disambiguating the subject and object by the order of the words. However, the subject is often removed, when unnecessary, so you don't actually know what type of word you will get, which requires more sudden attention, making it uncomfortable.
+    - VOS - Verb Object Subject: Action-centric, natural with the world, the relevant part is the action, the verb, what you want to know first. Having always the same structure improves cognitive flow.
+        - Matches programming structures: `verb(object, subject)`, `eat(apple, person)`.
+        - To distinguish between the object and the subject, the subject will be marked in some way.
