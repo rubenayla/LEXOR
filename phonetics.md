@@ -1,5 +1,6 @@
-## Phoneme-to-Character Mapping
+I'm thinking of 
 
+## Phoneme-to-Character Mapping
 | **Phoneme** | **IPA Symbol** | **Proposed Character** | **Type**    | **Origin/Notes**        |
 |-------------|----------------|-------------------------|-------------|--------------------------|
 | a           | /a/            | `a`                   | Vowel       | Standard vowel           |
@@ -7,8 +8,8 @@
 | i           | /i/            | `i`                   | Vowel       | Standard vowel           |
 | o           | /o/            | `o`                   | Vowel       | Standard vowel           |
 | u           | /u/            | `u`                   | Vowel       | Standard vowel           |
-| æ           | /æ/            | `y`                   | Vowel       | Distinct vowel sound     |
-| /ʌ/         | /ʌ/            | `w`                   | Vowel       | Open-mid back unrounded vowel. |
+| æ           | /æ/            | `c`                   | Vowel       | Distinct vowel sound     |
+| y           | y              | `y`                   | Vowel       | Open-mid back unrounded vowel. |
 | p           | /p/            | `p`                   | Consonant   | Plosive                  |
 | t           | /t/            | `t`                   | Consonant   | Plosive                  |
 | k           | /k/            | `k`                   | Consonant   | Plosive                  |
@@ -26,7 +27,11 @@
 | r           | /r/            | `r`                   | Consonant   | Rhotic                   |
 | h           | /h/            | `h`                   | Consonant   | Aspirate                 |
 
+### Unused Characters
+j, q, w
+
 ### Unused Common Phonemes
+- /ə/ (schwa): as in sofa – Useful for unstressed syllables.
 - `/ŋ/` (as in "song") → Velar nasal.
 - `/ʒ/` (as in "measure") → Voiced postalveolar fricative.
 - `/θ/` (as in "think") → Voiceless dental fricative.
@@ -36,8 +41,6 @@
 - `/w/` (as in "we") → Voiced labial-velar glide.
 - `/j/` (as in "yes") → Voiced palatal glide.
 
-### Unused Characters
-- `q`, `c`, `j`.
 
 ### Forbidden Phonetics
 

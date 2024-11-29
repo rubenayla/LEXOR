@@ -1,5 +1,5 @@
 
-- Each character matches a phoneme
+- Written like talked - Each character matches a phoneme
     - Almost all languages have complex rules, but end up being almost character-to-phoneme mappings. Just stick with it and make it required. Will make it way easier than competing languages.
 - Large set of vowels and consonants
 - Non-tonal language
@@ -10,3 +10,5 @@
     - VOS - Verb Object Subject: Action-centric, natural with the world, the relevant part is the action, the verb, what you want to know first. Having always the same structure improves cognitive flow.
         - Matches programming structures: `verb(object, subject)`, `eat(apple, person)`.
         - To distinguish between the object and the subject, the subject will be marked in some way.
+- Don't conjugate verbs, use short pronouns instead (personal, and more types)
+    - It's the same thing, just in a separate word. 
