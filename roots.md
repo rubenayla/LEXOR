@@ -35,9 +35,10 @@ Phonemes were chosen for consistency and logical alignment: **`y`** represents t
 TODO DECIDE WHETHER CONSONANT-VOWEL-CONSONANT AND THE TENSE IS A VOWEL AT THE END. FOR NOW IT'S THE IDEA.
 | **Root** | **Meaning**       | **Notes**                         |
 |----------|-------------------|-----------------------------------|
+| `pot`    | create/make       | Maintains simplicity with /p/ and /t/. |
+| `lom`    | eat/consume       | /l/ and /m/ fit phonetic constraints. |
 | `kom`    | move/motion       | Compatible with /k/ and /m/. |
 | `vis`    | see/visualize     | /v/ and /s/ align with phonetics. |
-| `pot`    | create/make       | Maintains simplicity with /p/ and /t/. |
 | `zan`    | exist/be          | Retains invented nature, compatible with /z/ and /n/. |
 | `bat`    | start/begin       | Fits phonetics, derived from "begin." |
 | `dit`    | finish/end        | Adjusted to /d/ and /t/, closer to "dict." |
@@ -47,7 +48,6 @@ TODO DECIDE WHETHER CONSONANT-VOWEL-CONSONANT AND THE TENSE IS A VOWEL AT THE EN
 | `dom`    | do/action         | /d/ and /m/ are phonetically valid. |
 | `gol`    | go/move           | Retains invented structure with /g/ and /l/. |
 | `hav`    | have/possess      | /h/ and /v/ provide clear distinction. |
-| `lom`    | eat/consume       | /l/ and /m/ fit phonetic constraints. |
 | `ked`    | run               | Matches /k/ and /d/, retains inventiveness. |
 | `ser`    | serve/help        | Adjusted for /s/ and /r/. |
 | `lav`    | wash/clean        | Derived from "lavare," compatible with /l/ and /v/. |
@@ -74,7 +74,7 @@ TODO DECIDE WHETHER CONSONANT-VOWEL-CONSONANT AND THE TENSE IS A VOWEL AT THE EN
 | `pun`    | hit/strike        | Matches /p/ and /n/, derived from "pungere." |
 | `cur`    | run/flow          | Retains /k/ and /r/, inspired by "currere." |
 | `lek`    | read/gather       | Adjusted to /l/ and /k/, derived from "legere." |
-| `skr`    | write             | Adjusted for /s/ and /k/, derived from "scribere." |
+| `sek`    | write             | Adjusted for /s/ and /k/, derived from "scribere." |
 | `aud`    | hear/listen       | Matches /a/ and /d/, derived from "audire." |
 | `dik`    | speak/say         | Adjusted to /d/ and /k/, inspired by "dicere." |
 | `kap`    | capture/take      | Matches /k/ and /p/, derived from "capere." |
@@ -87,7 +87,21 @@ TODO DECIDE WHETHER CONSONANT-VOWEL-CONSONANT AND THE TENSE IS A VOWEL AT THE EN
 ## Tense markers - Express tense without conjugation
 Verb suffixes to express present, past, future, continuous (i'm doing, i was doing, i will be doing) (combined with the previous ones), order, hypothetical (so if we were to do, then i would do) (if then else condition)
 
+| **Vowel** | **Meaning**          | **Rationale**                                                                 |
+|-----------|----------------------|-------------------------------------------------------------------------------|
+| `a`       | **Present**          | Open and central, symbolizing immediacy and neutrality (the "now").           |
+| `e`       | **Past**             | Slightly closed, reflecting something that has "closed" or "ended" (the past).|
+| `i`       | **Future**           | High and forward, symbolizing forward thinking and progression (the future).  |
+| `o`       | **Conditional**      | Rounded and thoughtful, reflecting hypothetical or conditional scenarios.     |
+| `u`       | **Imperative**       | Deep and strong, emphasizing commands or requests.                           |
+| `y`       | **Perfect/Completed**| To-Do (absence of vowel might be extra option)                           |
+| `x`       | **Continuous**       | Easy to pronounce after vowels, while sounding different, and can produce sound without vowels later. |
 
+### Examples
+'I am eating' → 'lomax i'
+'I am eating an apple' → 'lomax {apple} i'
+
+## Adverbs (generalized adjectives, act on anything, like very, quickly, etc.)
 
 
 ## Possessive pronouns (my, your, his...)
