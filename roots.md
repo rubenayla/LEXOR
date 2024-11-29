@@ -10,6 +10,8 @@ Reserve sets of roots for:
 - verb conjugations
     - Ending with vowels
 
+Types of words: noun, pronoun (replace noun), verb, adjective (modify noun), adverb (modify stuff), preposition (relationship), conjunction (connect), interjection
+
 ## Personal pronouns (I, you, he...)
 If we take a set of 3 people: me, you, and him, we have 3 individual pronouns, 3 pairs of two, and one for all of us. This gives us 7 pronouns. Now if you replace him by they, we get a new one. Any of the previous combinations won't be modified by adding more people, since it was already plural. We won't distinguish between "you and him" and "you and them", both are you plural. This gives us 9 pronouns. We will add a "we" that is generic, to not be obliged to defined whether the listener is included or not. The third-person pronouns (he/she/they) will be for people, so we will add 2 more for objects and concepts, singular and plural. This gives us 11 pronouns.
 
@@ -93,13 +95,26 @@ Verb suffixes to express present, past, future, continuous (i'm doing, i was doi
 | `e`       | **Past**             | Slightly closed, reflecting something that has "closed" or "ended" (the past).|
 | `i`       | **Future**           | High and forward, symbolizing forward thinking and progression (the future).  |
 | `o`       | **Conditional**      | Rounded and thoughtful, reflecting hypothetical or conditional scenarios.     |
-| `u`       | **Imperative**       | Deep and strong, emphasizing commands or requests.                           |
-| `y`       | **Perfect/Completed**| To-Do (absence of vowel might be extra option)                           |
+| `u`       | **Imperative**       | Deep and strong, emphasizing commands or requests.                            |
+| `y`       | **Perfect/Completed**| To-Do (absence of vowel might be extra option)                                |
 | `x`       | **Continuous**       | Easy to pronounce after vowels, while sounding different, and can produce sound without vowels later. |
+| Nothing   | **Infinitive**       | No vowel, just the root.                                                      |
+
+x goes combined after the other ones.
 
 ### Examples
 'I am eating' → 'lomax i'
-'I am eating an apple' → 'lomax {apple} i'
+'I am eating an apple' → 'lomax {apple} i' (Notice how the object looks more relevant now, comes first. It's actually like that.)
+
+## Prepositions - Show relationship between words
+> to, of, in, on, at, with, from, for, by, about, between, against, under, over, through, without, within, along, across, behind, near, among, inside, outside, around, before, after, during, until, above, below, except, towards, upon, concerning, against, regarding, among, throughout, despite...
+
+
+## Conjunctions - Connect sentences or words
+> because, and, but, or, if, when, while, although, since, so, unless, until, whether, 
+
+
+
 
 ## Adverbs (generalized adjectives, act on anything, like very, quickly, etc.)
 
