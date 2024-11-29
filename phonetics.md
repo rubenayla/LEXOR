@@ -43,7 +43,6 @@ j, q, w
 
 
 ### Forbidden Phonetics
-
 To ensure clarity and ease of articulation, the following phonetic rules are forbidden:
 
 1. **Words ending with the `k` sound**:

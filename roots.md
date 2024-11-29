@@ -115,82 +115,36 @@ x goes combined after the other ones.
 
 
 
-
 ## Adverbs (generalized adjectives, act on anything, like very, quickly, etc.)
-
 
 ## Possessive pronouns (my, your, his...)
 
+
 ## Demonstrative pronouns (this, that, these, those)
+
 
 ## Relative pronouns (who, which, that)
 
+
 ## Interrogative pronouns (who, what, which)?
+
 
 ## Indefinite pronouns (some, any, none)
 
 
-
-
 ## Nouns
-| **Root** | **Meaning**       | **Notes**                         |
-|----------|-------------------|-----------------------------------|
-| `ra`     | thing/object      | Generic item or entity.           |
-| `ni`     | place/location    | Physical or conceptual location.  |
-| `to`     | person/agent      | Someone or something acting.      |
-| `se`     | time/moment       | A point or interval in time.      |
-| `na`     | none/nothing      | Absence of an object or concept.  |
-| `fu`     | function/purpose  | Purpose or intended use.          |
-| `lo`     | logic/truth       | General reasoning or truth.       |
-| `pi`     | child/offspring   | Biological or metaphorical child. |
 
 
 ## Modifiers
-| **Root** | **Meaning**       | **Notes**                          |
-|----------|-------------------|------------------------------------|
-| `un`     | negate/not        | Reverses or negates meaning.      |
-| `tri`    | three/third       | Number 3 or related fractions.    |
-| `sub`    | fraction/part     | Denotes a subset or portion.      |
-| `wa`     | wide/expand       | To broaden or make larger.        |
-| `li`     | limit/restrict    | To constrain or make smaller.     |
-| `re`     | repeat/do again   | Indicates repetition.             |
-| `ke`     | question          | Inquiry or uncertainty marker.    |
+
 
 ## Logical and Probabilistic Operators
-| **Root** | **Meaning**       | **Notes**                          |
-|----------|-------------------|------------------------------------|
-| `an`     | and               | Logical conjunction.              |
-| `or`     | or                | Logical disjunction.              |
-| `if`     | conditional       | Dependency or causality.          |
-| `prob`   | probably          | Indicates moderate likelihood.    |
-| `lik`    | likely            | Indicates high likelihood.        |
-| `unlik`  | unlikely          | Indicates low likelihood.         |
-| `noc`    | not necessarily   | Ambiguity or partial truth.        |
-| `xor`    | exclusive or (shor) | Exactly one condition is true.    |
-| `all`    | all (universal)   | Universal quantifier (all cases). |
-| `exi`    | exists            | At least one element satisfies.   |
+
 
 ## Directions
-| **Root** | **Meaning**       | **Notes**                          |
-|----------|-------------------|------------------------------------|
-| `x`      | forward           | Movement in the X-axis direction. |
-| `y`      | left              | Movement in the Y-axis direction. |
-| `z`      | upward            | Movement in the Z-axis direction. |
-| `neg`    | backward/down     | Opposite of `x` or `z`.           |
+
 
 ## States and Affirmations
-| **Root** | **Meaning**       | **Notes**                          |
-|----------|-------------------|------------------------------------|
-| `ye`     | yes               | Affirmation or agreement.         |
-| `no`     | no                | Negation or disagreement.         |
-| `me`     | maybe             | Neutral or uncertain stance.      |
-| `ok`     | acceptable/agree  | Agreement or acknowledgment.      |
-| `koe`    | disagree          | Explicit rejection.               |
+
 
 ## Emotions and Relationships
-| **Root** | **Meaning**       | **Notes**                          |
-|----------|-------------------|------------------------------------|
-| `am`     | love (general)    | Universal love or affection.      |
-| `ad`     | romantic love     | Specific to romantic contexts.    |
-| `mu`     | familial love     | Affection within family bonds.    |
-| `fe`     | friend            | Close companion or ally.          |
