@@ -24,5 +24,4 @@ This project is licensed under the **Apache License 2.0**. See the `LICENSE` fil
 We welcome contributions! If you’re interested in helping refine Lexor, feel free to open an issue or submit a pull request.
 
 ## References
-- [Conlingua - Conlanguage Generator](https://github.com/etnms/Conlingua-conlanguage-generator)
 - [Condict](https://github.com/arimah/condict)

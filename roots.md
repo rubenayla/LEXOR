@@ -12,6 +12,9 @@ Reserve sets of roots for:
 
 Types of words: noun, pronoun (replace noun), verb, adjective (modify noun), adverb (modify stuff), preposition (relationship), conjunction (connect), interjection
 
+## Plural?
+Add `s` at the end of the word? Then should be avoided for word roots
+
 ## Personal pronouns (I, you, he...)
 If we take a set of 3 people: me, you, and him, we have 3 individual pronouns, 3 pairs of two, and one for all of us. This gives us 7 pronouns. Now if you replace him by they, we get a new one. Any of the previous combinations won't be modified by adding more people, since it was already plural. We won't distinguish between "you and him" and "you and them", both are you plural. This gives us 9 pronouns. We will add a "we" that is generic, to not be obliged to defined whether the listener is included or not. The third-person pronouns (he/she/they) will be for people, so we will add 2 more for objects and concepts, singular and plural. This gives us 11 pronouns.
 
