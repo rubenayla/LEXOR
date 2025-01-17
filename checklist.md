@@ -1,0 +1,106 @@
+- [ ] Have a specific word for calling someone whose name you don't know, or calling an unspecified person, for example for help when working in a group.
+- [ ] Single-syllable words for:
+    - [ ] Logical operators
+    - [ ] Common verbs, nouns, adjectives
+    - [ ] All colors
+    - [ ] All pronouns, prepositions (connect to words), conjunctions (connect same-level stuff)
+    - [ ] All digits
+- [ ] To-Do, express this whole project in Lexor itself, maybe within a folder, git branch, or fork.
+- [ ] Distinguish clearly between directions and locations.
+    - Top != Up, Bottom != Down
+    - Could maybe share roots
+- [ ] Word for directions in objects (Length, width, height, depth, thickness, thinness, height, width)
+    - Longest direction
+    - Medium length direction
+    - Shortest direction
+        - NOT height. Orientation should not matter.
+    - (when 2 are the same, use still the previous or more info with specific word?)
+- [ ] Difference between "a is diffent than b" and "a does not have to equal b, necessarily"
+- Confusion example: "The WIF version of bitcoin private keys only uses uppercase 'K' and 'L' to start the keys.
+    - Interpretation 1: 'K' and 'L' are only used at the start, nowhere else.
+        - "only uses"
+    - Interpretation 2: The start is either 'K' or 'L', no other options there. 'K' and 'L' could be used elsewhere, didn't specify.
+        - Should be "uses only" for this interpretation
+- [ ] "I want a resolution higher than 1080p.", "I want a resolution higher than 1km."
+    - In one case it's about the number of pixels, in the other it's about the distance. Is more distance per pixel more resolution? Or is more pixels more resolution? How to make clear these abstract terms that can be expressed in different ways, without overloading with words?
+- Symbol or mono-syllable for % meaning ratio or proportion, that doesn't assume being multiplied by 100 (a percentage).
+- The taper ratio of a wing $\lambda = \frac{c_{\text{tip}}}{c_{\text{root}}}$.
+    - Problem
+        - This name is unintuitive, and has caused several confusions (wrong books and teacher slides).
+        - A higher "estrechamiento" or "taper ratio" should mean a more tapered wing, but a more tapered wing has a smaller $\lambda$. 
+        - How to create a name that is more intuitive, for values that go 0 to 1?
+    - Linked problem: There are often aspects of the world where there are no nouns that describe it without implying adjectivity. For example fatness vs thinness. I want a neutral one, like weight, size etc, where calling a thin person very unfat makes sense. These should be general, then specified to make adjectives for much or little of it. "I want to warm up this yogurt to room temperature, or i want to uncool it to room temperature. Warming up might assume higher temperature than the ambient"
+    - Solutions:
+        - tip chord ratio
+- [ ] Sort of "anti-adjective" that specifically includes everything. You want them to exclude any assumptions.
+    - To shorten when people say "when you earn money, be it a lot or a little". "We may like or more, or we may like it less. We may be more aligned with his opinions, or we may be less aligned. But what's striking is the indignation..."
+- [ ] What if you are not sure something is happening now, happened in the past, or will happen in the future? Unsure of the verbal tense but you still need to talk. How can we manage this uncertainty, to express it cleanly?
+- [ ] Standard placeholder, if you put X repeatedly, understand whether it's the same value being put in several places, or each X is a new different value. Also, symbol when writing, that means it's a placeholder, like brackets etc.
+- Different verbs for "SER" and "ESTAR", like in Spanish.
+    - Example: In quantum physics, the particles "SON", but they don't "ESTÁN" in a specific place, until you measure them.
+- Has to be fast and compact, general for questions but also exact and precise for arguments. Variable precision
+- Capability of pronoun-less writing. Something has happened, no need to tell who did it. Most languages express this in a very odd way, it should work better by default.
+    - Like this but simple: “Se ha decidido hacer esto”, “It has been decided to do this”
+- Has to be able to be written digitally with a few symbols (<64).
+- Grouping: Written and talked way to differentiate the levels of nested sentences (The “()” in math, “{}” or tabs in programming). If I say “A and B or C”, you can interpret it as (A&B)|C, in which case C is enough to make the result true, or as A&(B|C) in which case you need both A and some of the others. Maybe this can be achieved tonally by voice and with parentheses in writing, and could be used only when precision is needed. I would not use tone to change the meaning of words.
+    - Por ejemplo en español, me pensaba las 3 cosas que pedía calcular se referían al difusor, y no le veía sentido. Tras preguntar a compañeros resulta que el difusor sólo aplica al rendimiento: “Determinar el empuje específico, el impulso específico y el rendimiento isentrópico del difusor”
+- Compact words (1 syllable) for
+    - Comparators (==, ~=, >=, >, <=, <, !=)
+        - Easy for amounts, how to apply to other adjectives? Like “prettier”, but with negative and “less pretty” built-in. One root for all the comparisons.
+    - Conditional operators (if, iif, and, or, not, nand, nor, xor).
+    - Numbers
+        - One syllable per digit
+        - Compact way to say negatives
+    - Yes, No, True, False, Good, Bad, Directions (Forward, Backward, Left, Right, Up, Down), Ok, Not-sure, Agree, Disagree, Emotions,
+- Precise simple way to say directions (in addition to the words for all simple directions)
+    - With respect to user, x axis is forward, y left, z up, express rotation angle as a fraction of a turn, that is, “turn 90º left” → “turn sub 3” (dozenal way of 0.25), equivalent to “3 o’clock” angle, but in the opposite direction.
+        - 90º → 0;30, 45º → 0;16, 30º → 0;1
+- Language should consider talking about sets of things (possible decisions, cases, situations, people, places, etc) more easily. Distinguish between these, and express them easily:
+    - Equality:
+        - To solve these, consider the set of possible outcomes, and each expression as a selection of which set defines the possible outcomes. If you affirm that something IS x, you selected the outcome. If it IS NOT, anything other than that outcome is true. If it CAN BE, you selected the IS and the uncertainties in between. If it CAN’T BE, you selected the IS NOT.
+        - "a = b": affirm that a always equals b, in all cases
+        - "a != b": affirm that a never equals b, in all cases
+        - "not (a = b)": A does not necessarily have to equal b. This could be interpreted as "a != b" very easily. Should be distinguished in the language.
+            - Maybe some other word like "noc a=b" or "a noc = b" (Not in all cases)
+        - “[a=b] CAN be true”. Is possible to be true. There is no reason to imply that it can’t be true (possible, likely)
+            - “[a=b] DOESN’T HAVE to be true” = can be false, or “There are no reasons to affirm A” without confusing it with A=False
+        - “there exists at least one case where [a=b]”
+    - Compare amounts (sets A and B)
+        - All elements of set A are bigger than all of B
+        - There exists at least 1 element in A bigger than B
+        - There are no elements in A bigger than B
+        - All elements in A are within the bounds of B
+        - …
+    - “This is false”
+        - “This is always false”
+        - “There exists at least one case where this is false, even though most of them may be true” (”This” may be a complex statement that changes or depends on the situation)
+    - “the probability of [a=b] happening is x”
+    - “[a=b] is more likely than [c=d]”
+    - a is likely to be [=, $\neq$, or any adjective] to b, 1 syllable
+    - Examples:
+        - We have masses m1 and m2 → The masses CAN be different. Don’t have to be equal. However the tendency to simplify to “ARE DIFFERENT” is very strong. And that can be wrong in the specific but possible case where m1 = m2. Saying “are generally different” is too dumb and long.
+- Others
+    - A word to say easily: “I’m in Spain, Madrid, Fuenlabrada, URJC, Building B, at the entrance” without it actually being a list of places. Word with meaning: “and from there, …”, “inside that, …”
+- More pronouns for “we”
+    - Just you and me
+    - You, me, and others
+    - Me and others
+    - Generic? How to express without needing to specify whether the other person is included. Some questions would include or exclude the person in the set depending on the answer, so it’s annoying.
+- Specify existence vs quantity naturally.
+    - Example: I have 3 pens. I say “I have 2 pens”. Is that true or false? If I have 3 pens, then I do also have 2. But the total amount is not 2. Does it mean “The amount of pens I have is equal to 3” or “I have 2 pens”, in the sense that “I have them, you don’t know which ones I’m referring to”.
+    - language: "Yo voy el sábado", eso quiere decir que, el día que vas es el sábado, o que el sábado irás seguro, aunque vayas otro día antes? Es diferente de decir: "Yo el sábado voy"?
+- Distinguish easily the source of the information I’m transmitting.
+    - Like in Cherokee language: A suffix is added to the verb, to express whether I saw the info directly or I’ve been told that is the case.
+- Express ranges of values, and distributions easily (from 2 to 9, usually about 7). Gaussian distribution with peak at 7 and quartiles or whatever at 2 and 9, one tail much longer than the other. Make it easy to say, since the concept is actually easy.
+    - For example: 7 +2-5mm
+- Colours: rgb + alpha + matte/shiny (5 dimensions, plain color + 2 dimensions)
+- Nope, remove. Best part is no part.
+    - Words with no gender. Compact adjectives when needed, but don’t force specificity. Remove he/she difference, use something like “it” by default for objects and people. Then add adjective to specify. If that adjective is always the same for other words, better.
+    - “you” plural and singular must be different (Tú ≠ nosotros)
+    - No accents
+        - In computers: It makes you multiply the amount of characters you need by the amount of accents you have. At least double the characters
+        - Hand-writing: It makes you lift the pen, stops the flow of writing.
+- Compact way to express the same object in different ways while talking, without needing to express as tangents. Ex: The text (text variable, type string) is added to the PDF (a canvas object)
+- When saying x or y, x and y etc and we want to shorten by not including the verb. How to do it?
+    - Ex: "You have to write a password with no spaces and |" This means no spaces and no |? I think that should be "with no spaces or |". Are you removing a verb to make it shorter ("and"), or expressing a set of two items that are not allowed? ("or"). This should be more clear, and versatile.
+- [ ] Check this sentence: "The 12 cities marked in red have the same population as NYC". Does it mean that the 12 cities have the same population as NYC, or that the sum of the populations of the 12 cities is the same as NYC? How to make this clear?

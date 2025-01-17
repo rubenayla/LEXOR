@@ -1,5 +1,3 @@
-I'm thinking of 
-
 ## Phoneme-to-Character Mapping
 | **Phoneme** | **IPA Symbol** | **Proposed Character** | **Type**    | **Origin/Notes**        |
 |-------------|----------------|-------------------------|-------------|--------------------------|
@@ -27,11 +25,16 @@ I'm thinking of
 | r           | /r/            | `r`                   | Consonant   | Rhotic                   |
 | h           | /h/            | `h`                   | Consonant   | Aspirate                 |
 
+- So 23 characters in total. 7 vowels and 16 consonants.
+- This means we can generate 16*7*16*7=12544 words in the format of CVCV. That's >50% of the active vocabulary of an average adult English speaker.
+- By adding an extra syllable, we can generate $(16*7)^3 = 1\ 404\ 928$ words, which is more than we will ever need.
+- Now the work is to make the language consistent. All these words will be easy to pronounce. All connectors and basic common words will be single-syllable words. The most common will be 2-syllable words. Then verbs will be in 'CVC' root + 'V' for conjugation. We have $1792$ possible verbs in this way. People usually use 200 verbs in a daily basis, and recognize about 2000.
+
 ### Unused Characters
 j, q, w
 
 ### Unused Common Phonemes
-- /ə/ (schwa): as in sofa – Useful for unstressed syllables.
+- `/ə/` (schwa): as in sofa – Useful for unstressed syllables.
 - `/ŋ/` (as in "song") → Velar nasal.
 - `/ʒ/` (as in "measure") → Voiced postalveolar fricative.
 - `/θ/` (as in "think") → Voiceless dental fricative.
@@ -40,7 +43,6 @@ j, q, w
 - `/dʒ/` (as in "judge") → Voiced postalveolar affricate.
 - `/w/` (as in "we") → Voiced labial-velar glide.
 - `/j/` (as in "yes") → Voiced palatal glide.
-
 
 ### Forbidden Phonetics
 To ensure clarity and ease of articulation, the following phonetic rules are forbidden:

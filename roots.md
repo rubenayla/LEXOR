@@ -141,7 +141,11 @@ x goes combined after the other ones.
 ## Modifiers
 
 
-## Logical and Probabilistic Operators
+## Logical and Comparative Operators
+> <, <=, >, >=, ==, !=
+
+
+## Probabilistic Operators
 
 
 ## Directions

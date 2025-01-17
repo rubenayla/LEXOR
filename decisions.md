@@ -11,4 +11,16 @@
         - Matches programming structures: `verb(object, subject)`, `eat(apple, person)`.
         - To distinguish between the object and the subject, the subject will be marked in some way.
 - Don't conjugate verbs, use short pronouns instead (personal, and more types)
-    - It's the same thing, just in a separate word. 
+    - It's the same thing, just in a separate word
+- Default coordinate system for any agent/vehicle/camera/entity:
+    - X forwards, Y left, Z up (Right-handed)
+        - The main direction is obvious, forward. Where we look. That's X, no discussion here. Z always has been up. Y should be left to match these with standard right-handed system. The floor is xy.
+    - Positive horizontal rotation towards the left.
+    - Relation to usual terms, to memorize easily, in xyz:
+        - Wheels (right ones): camber, -caster, toe (in)
+        - Planes: roll, -pitch, and yaw.
+    - Names of rotations? They must be obvious, no need to actively memorize them (like yaw, roll, pitch, aft, starboard, port, camber, caster, toe, etc.)
+        - X rotation: TODO
+        - Y rotation: TODO
+        - Z rotation: TODO
+- TODO: English uses commas to separate sentences, but we may have more than 2 different levels of indentation. How can we manage that?

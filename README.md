@@ -1,5 +1,5 @@
 # Lexor
-**Lexor** is a constructed language aiming to maximize precision and efficiency in communication, from phonetics to grammar. Built from first principles, it emphasizes clarity, compactness, and logical structure. **Currently under development** and open for contributions.
+**Lexor** is a constructed language aiming to objectively maximize precision and efficiency in communication, from phonetics to grammar. Built from first principles, it emphasizes clarity, compactness, and logical structure. **Currently under development** and open for contributions.
 
 Whenever possible, it will be based on English and Latin roots.
 
