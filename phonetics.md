@@ -8,6 +8,8 @@
 | u           | /u/            | `u`                   | Vowel       | Standard vowel           |
 | æ           | /æ/            | `c`                   | Vowel       | Distinct vowel sound     |
 | y           | y              | `y`                   | Vowel       | Open-mid back unrounded vowel. |
+| x           | /ʃ/            | `x`                   | Consonant   | Chosen for the `sh` sound |
+| ch          | /t͡ʃ/          | ch                    | affricate   | As in Spanish "chico"    |
 | p           | /p/            | `p`                   | Consonant   | Plosive                  |
 | t           | /t/            | `t`                   | Consonant   | Plosive                  |
 | k           | /k/            | `k`                   | Consonant   | Plosive                  |
@@ -18,7 +20,6 @@
 | s           | /s/            | `s`                   | Consonant   | Fricative                |
 | v           | /v/            | `v`                   | Consonant   | Fricative                |
 | z           | /z/            | `z`                   | Consonant   | Fricative                |
-| x           | /ʃ/            | `x`                   | Consonant   | Chosen for the `sh` sound |
 | l           | /l/            | `l`                   | Consonant   | Lateral                  |
 | m           | /m/            | `m`                   | Consonant   | Nasal                    |
 | n           | /n/            | `n`                   | Consonant   | Nasal                    |
