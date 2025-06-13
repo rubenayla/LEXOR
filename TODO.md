@@ -1,6 +1,7 @@
 # TODO
 
 ## High Priority
+- way to distinguish between "interpret this word as a variable in programming, replace it by whatever it means" and "take this info literally". Example: my name is very stupid vs my name is "very stupid"
 - Include example of sympy in python, sp.Eq() analyzes equality in a strange way, if the two multivariable expression CAN be unequal, it returns False. It answers: "Are they always equal?" = "Are they identical expressions?".
 - Reserve a root for comma-like behavior, specifically when you're going to use several synonyms or equivalent descriptions for something, to make it clearer.
     - Example: "I'll use scalar-first, wxyz, Hamilton convention". I used 3 different ways to refer to it to make it easier to understand, but that could be explicit, instead of looking like separate independent parameters.
