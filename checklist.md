@@ -109,3 +109,9 @@
 - Consider math equation where I want to express the size of an object with a symbol, its amount in a couple different ways, units etc. I want to give all the information. A separator symbol is necessary, different from boolean conditional (`(a==b) == True`) or an assignation (`a = b`).
 - We should have a compact way to express "aproximate value, I don't expect this to be precise, it's just eyeballed" in a compact way like 's' for plural.
     > "Like this, in 1h I can get the sunlight of 4h" (without sounding like scientific made up data). It's easy to think he's lying when to him it's just "a way of talking".
+- "I bet you I can do between three and four hundred pushups" could mean 3-400 or 300-400.
+- directions front-back left-right, use same root so that means the direction, add vowel to express one or the other direction ("sentido" en español, no existe en ingles esa palabra)
+- > when they say "mean sea level" its not the mean of the sea level around the earth but the mean of the sea level at each point along time. It's a temporal mean, not physical, and its varies with location, defined by earths geoid
+    - The language should allow expressing "mean over what dimension" easily. Maybe the prepositions need to be refined or force consistency.
+    - Maybe adjectives should go afterwards to stack easily, but other than adjectives we also have belonging. so in "nivel del mar medio temporal" we have the sea, of which the level is an attribute, then we can modify it with the mean, and add an adjective of the mean to make it temporal. "sea level mean temporal", like in spanish . Maybe tonality so its clear that temporal modifies mean, instead of being some kind of attribute of "sea level mean".
+
