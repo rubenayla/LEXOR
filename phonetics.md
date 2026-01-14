@@ -1,38 +1,39 @@
 ## Phoneme-to-Character Mapping
-| **Phoneme** | **IPA Symbol** | **Proposed Character** | **Type**    | **Origin/Notes**        |
-|-------------|----------------|-------------------------|-------------|--------------------------|
-| a           | /a/            | `a`                   | Vowel       | Standard vowel           |
-| e           | /e/            | `e`                   | Vowel       | Standard vowel           |
-| i           | /i/            | `i`                   | Vowel       | Standard vowel           |
-| o           | /o/            | `o`                   | Vowel       | Standard vowel           |
-| u           | /u/            | `u`                   | Vowel       | Standard vowel           |
-| æ           | /æ/            | `c`                   | Vowel       | Distinct vowel sound     |
-| y           | y              | `y`                   | Vowel       | Open-mid back unrounded vowel. |
-| x           | /ʃ/            | `x`                   | Consonant   | Chosen for the `sh` sound |
-| ch          | /t͡ʃ/          | ch                    | affricate   | As in Spanish "chico"    |
-| p           | /p/            | `p`                   | Consonant   | Plosive                  |
-| t           | /t/            | `t`                   | Consonant   | Plosive                  |
-| k           | /k/            | `k`                   | Consonant   | Plosive                  |
-| b           | /b/            | `b`                   | Consonant   | Plosive                  |
-| d           | /d/            | `d`                   | Consonant   | Plosive                  |
-| g           | /g/            | `g`                   | Consonant   | Plosive                  |
-| f           | /f/            | `f`                   | Consonant   | Fricative                |
-| s           | /s/            | `s`                   | Consonant   | Fricative                |
-| v           | /v/            | `v`                   | Consonant   | Fricative                |
-| z           | /z/            | `z`                   | Consonant   | Fricative                |
-| l           | /l/            | `l`                   | Consonant   | Lateral                  |
-| m           | /m/            | `m`                   | Consonant   | Nasal                    |
-| n           | /n/            | `n`                   | Consonant   | Nasal                    |
-| r           | /r/            | `r`                   | Consonant   | Rhotic                   |
-| h           | /h/            | `h`                   | Consonant   | Aspirate                 |
+| **Phoneme** | **IPA Symbol** | **Proposed Character** | **Type**    | **Articulation/Description**          | **Origin/Notes**        |
+|-------------|----------------|-------------------------|-------------|----------------------------------------|--------------------------|
+| a           | /a/            | `a`                   | Vowel       | Open front unrounded vowel             | Standard vowel           |
+| e           | /e/            | `e`                   | Vowel       | Close-mid front unrounded vowel        | Standard vowel           |
+| i           | /i/            | `i`                   | Vowel       | Close front unrounded vowel            | Standard vowel           |
+| o           | /o/            | `o`                   | Vowel       | Close-mid back rounded vowel           | Standard vowel           |
+| u           | /u/            | `u`                   | Vowel       | Close back rounded vowel               | Standard vowel           |
+| æ           | /æ/            | `c`                   | Vowel       | Near-open front unrounded vowel        | Distinct vowel sound     |
+| y           | y              | `y`                   | Vowel       | Open-mid back unrounded vowel          | Open-mid back unrounded vowel. |
+| x           | /ʃ/            | `x`                   | Consonant   | Voiceless postalveolar fricative (sh)  | Chosen for the `sh` sound |
+| ch          | /t͡ʃ/          | ch                    | affricate   | Voiceless postalveolar affricate (ch)  | As in Spanish "chico"    |
+| p           | /p/            | `p`                   | Consonant   | Voiceless bilabial plosive             | Plosive                  |
+| t           | /t/            | `t`                   | Consonant   | Voiceless alveolar plosive             | Plosive                  |
+| k           | /k/            | `k`                   | Consonant   | Voiceless velar plosive                | Plosive                  |
+| b           | /b/            | `b`                   | Consonant   | Voiced bilabial plosive                | Plosive                  |
+| d           | /d/            | `d`                   | Consonant   | Voiced alveolar plosive                | Plosive                  |
+| g           | /g/            | `g`                   | Consonant   | Voiced velar plosive                   | Plosive                  |
+| j           | /x/            | `j`                   | Consonant   | Voiceless velar fricative (Spanish j)  | As in Spanish "j" / German "Bach" |
+| f           | /f/            | `f`                   | Consonant   | Voiceless labiodental fricative        | Fricative                |
+| s           | /s/            | `s`                   | Consonant   | Voiceless alveolar fricative           | Fricative                |
+| v           | /v/            | `v`                   | Consonant   | Voiced labiodental fricative           | Fricative                |
+| z           | /z/            | `z`                   | Consonant   | Voiced alveolar fricative              | Fricative                |
+| l           | /l/            | `l`                   | Consonant   | Alveolar lateral approximant           | Lateral                  |
+| m           | /m/            | `m`                   | Consonant   | Bilabial nasal                         | Nasal                    |
+| n           | /n/            | `n`                   | Consonant   | Alveolar nasal                         | Nasal                    |
+| r           | /ɾ/            | `r`                   | Consonant   | Alveolar tap (Spanish single r)        | Rhotic                   |
+| h           | /h/            | `h`                   | Consonant   | Voiceless glottal fricative            | Aspirate                 |
 
-- So 23 characters in total. 7 vowels and 16 consonants.
-- This means we can generate 16*7*16*7=12544 words in the format of CVCV. That's >50% of the active vocabulary of an average adult English speaker.
-- By adding an extra syllable, we can generate $(16*7)^3 = 1\ 404\ 928$ words, which is more than we will ever need.
-- Now the work is to make the language consistent. All these words will be easy to pronounce. All connectors and basic common words will be single-syllable words. The most common will be 2-syllable words. Then verbs will be in 'CVC' root + 'V' for conjugation. We have $1792$ possible verbs in this way. People usually use 200 verbs in a daily basis, and recognize about 2000.
+- So 24 characters in total. 7 vowels and 17 consonants.
+- This means we can generate 17*7*17*7=14161 words in the format of CVCV. That's >50% of the active vocabulary of an average adult English speaker.
+- By adding an extra syllable, we can generate $(17*7)^3 = 1\ 685\ 159$ words, which is more than we will ever need.
+- Now the work is to make the language consistent. All these words will be easy to pronounce. All connectors and basic common words will be single-syllable words. The most common will be 2-syllable words. Then verbs will be in 'CVC' root + 'V' for conjugation. We have $2023$ possible verbs in this way. People usually use 200 verbs in a daily basis, and recognize about 2000.
 
 ### Unused Characters
-j, q, w
+q, w
 
 ### Unused Common Phonemes
 - `/ə/` (schwa): as in sofa – Useful for unstressed syllables.

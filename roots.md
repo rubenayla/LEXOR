@@ -1,6 +1,6 @@
 # Roots
-If we had no limitations, we could create 16 * 7 = 112 consonant-vowel roots. This section will probably change as the language evolves.
-With cons-vow-cons: 16 * 7 * 16 = 1792 roots. Enough
+If we had no limitations, we could create 17 * 7 = 119 consonant-vowel roots. This section will probably change as the language evolves.
+With cons-vow-cons: 17 * 7 * 17 = 2023 roots. Enough
 
 I'm thinking of starting words with consonants, since starting with a vowel is often almost impossible to hear.
 The roots will be defined from top to bottom, creating a sense of priority, so the leftover roots will be used forward at the end of this file.
