@@ -114,4 +114,5 @@
 - > when they say "mean sea level" its not the mean of the sea level around the earth but the mean of the sea level at each point along time. It's a temporal mean, not physical, and its varies with location, defined by earths geoid
     - The language should allow expressing "mean over what dimension" easily. Maybe the prepositions need to be refined or force consistency.
     - Maybe adjectives should go afterwards to stack easily, but other than adjectives we also have belonging. so in "nivel del mar medio temporal" we have the sea, of which the level is an attribute, then we can modify it with the mean, and add an adjective of the mean to make it temporal. "sea level mean temporal", like in spanish . Maybe tonality so its clear that temporal modifies mean, instead of being some kind of attribute of "sea level mean".
-
+- Enable plugging numbers as probability instead of creating a mess of "most/very likely", "certainly", "somewhat likely", "more or less likely", "unlikely", "very unlikely", like this: "It's 90% likely going to rain" which doesn't sound natural in english, but maybe it should.
+- 

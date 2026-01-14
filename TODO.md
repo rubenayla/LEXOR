@@ -1,3 +1,6 @@
+- symbol to mean "literally"
+    - like "He said 'he would kill me'" (Not that he said he would kill me, but he literally said those words).
+
 # TODO
 
 ## High Priority
