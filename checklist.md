@@ -36,6 +36,8 @@
     - To shorten when people say "when you earn money, be it a lot or a little". "We may like or more, or we may like it less. We may be more aligned with his opinions, or we may be less aligned. But what's striking is the indignation..."
 - [ ] What if you are not sure something is happening now, happened in the past, or will happen in the future? Unsure of the verbal tense but you still need to talk. How can we manage this uncertainty, to express it cleanly?
 - [ ] Standard placeholder, if you put X repeatedly, understand whether it's the same value being put in several places, or each X is a new different value. Also, symbol when writing, that means it's a placeholder, like brackets etc.
+    - Reserved delimiter for non-literal placeholders (e.g., `<path>`), never used for anything else.
+    - Escaping rule to include literal delimiters/quotes (e.g., `""` means a literal `"`).
 - Different verbs for "SER" and "ESTAR", like in Spanish.
     - Example: In quantum physics, the particles "SON", but they don't "ESTÁN" in a specific place, until you measure them.
 - Has to be fast and compact, general for questions but also exact and precise for arguments. Variable precision
